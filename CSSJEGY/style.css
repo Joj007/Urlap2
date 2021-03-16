@@ -4,7 +4,7 @@ body{
 }
 
 a{
-    columns: #999999;
+    color: #999999;
 }
 
 #kulso{
@@ -24,4 +24,11 @@ a{
     background-color: black;
     color: white;
     text-align: center;
+}
+
+#gyom{
+    border: black 1px solid;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
 }
