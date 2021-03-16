@@ -1,0 +1,27 @@
+body{
+    background-color: #9CEE59;
+    color: black;
+}
+
+a{
+    columns: #999999;
+}
+
+#kulso{
+    width: 980px;
+    margin: auto;
+    background-color: #509050;
+}
+
+#belso{
+    width: 940px;
+    margin: auto;
+    background-color: white;
+}
+
+#sor td{
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
