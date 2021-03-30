@@ -1,0 +1,89 @@
+div{
+    background-color:rgb(240, 240, 240) ;
+    width: 50%;
+    height: 500px ;
+    color: gray;
+}
+
+
+input{
+    width: 50%;
+    float: right;
+    height: 0.8cm;
+}
+
+select{
+    width: 50%;
+    float: right;
+    height: 0.8cm;
+}
+
+
+.text{
+    width: 50%;
+    float: right;
+    margin-right:0.5cm;
+    margin-top: 0.3cm;
+}
+
+#tele1{
+width: 10%;
+margin-right: 0cm;
+}
+
+#tele2{
+width: 35%;
+margin-left: 0cm;
+}
+
+#radio1{
+    float: right;
+    height: 0.6cm;
+    width: 0.6cm;
+    position: relative;
+    right: 7cm;
+    top: 0.5cm;
+}
+#radio2{
+    float: right;
+    height: 0.6cm;
+    width: 0.6cm;
+    position: relative;
+    right: 8cm;
+    bottom: 0.35cm;
+}
+#radio3{
+
+    float: right;
+    height: 0.6cm;
+    width: 0.6cm;
+    position: relative;
+    right: 8.2cm;
+    top: 0.5cm;
+}
+#radio4{
+    float: right;
+    height: 0.6cm;
+    width: 0.6cm;
+    position: relative;
+    right: 4cm;
+    bottom: 0.35cm;
+}
+
+label{
+    margin-top: 1cm;
+}
+
+#nemed{
+    position: relative;
+    top: 0.6cm;
+}
+
+#neved{
+    position: relative;
+    top: 0.35cm;
+}
+
+fieldset{
+    border: none;
+}
