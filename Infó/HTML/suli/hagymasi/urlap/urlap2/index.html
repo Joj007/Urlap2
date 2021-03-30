@@ -11,98 +11,110 @@
 
 <body>
     <h1>Alapadatok</h1>
-    <div>
-        <form>
-            <fieldset>
-            <label id="neved">Teljes neved</label>
-            <input type="text" class="text">
-        </fieldset>
+    <div id="alap">
+        <form id="urlap">
+            <fieldset id="egy">
+                <label for="nevid" id="neved">Teljes neved</label>
+                <input type="text" name="név" class="text" id="nevid">
+            </fieldset>
             <br>
-        <fieldset>
-            <label id="nemed">Nemed</label>
-            <input type="radio" name="nem" id="radio1">
-            <label id="radio2">Férfi</label>
-            <input type="radio" name="nem" id="radio3">
-            <label id="radio4">Nő</label>
-        </fieldset>
+            <fieldset id="ketto">
+                <label for="radio1" id="nemed">Nemed</label>
+                <input type="radio" name="nem" id="radio1">
+                <label id="radio2" for="radio1">Férfi</label>
+                <input type="radio" name="nem" id="radio3">
+                <label id="radio4" for="radio3">Nő</label>
+            </fieldset>
             <br>
-        <fieldset>
-            <label>E-mail</label>
-            <input type="email" class="text">
-        </fieldset>
+            <fieldset id="harom">
+                <label for="emailid" id="email">E-mail</label>
+                <input name="email" type="email" class="text" id="emailid">
+            </fieldset>
             <br>
-        <fieldset>
-            <label>Telefonszám</label>
-            <select name="" id="" id="tele1">
-                <option value="36" selected>36</option>
-                <option value="50">50</option>
-            </select>
-            <input type="number" id="tele2">
-        </fieldset>
+            <fieldset id="negy">
+                <label id="tel1" for="tele2">Telefonszám</label>
+                <select name="telefon" id="tele1">
+                    <option value="36" selected>36</option>
+                    <option value="50">50</option>
+                </select>
+                <input name="telefonszam" type="number" id="tele2">
+            </fieldset>
             <br>
-        <fieldset>
-            <label>A levelezés alapértelmezett nyelve</label>
-            <select name="" id="">
-                <option value="" selected>Magyar</option>
-                <option value="">Angol</option>
-            </select>
-        </fieldset>
+            <fieldset id="ot">
+                <label for="nyelve" id="nyelv">Levelezés <br> alapértelmezett nyelve</label>
+                <select name="nyelv" id="nyelve">
+                    <option value="magyar" selected>Magyar</option>
+                    <option value="angol">Angol</option>
+                </select>
+            </fieldset>
             <br>
-        <fieldset>
-            <label>Születési idő</label>
-            <select name="Év" id="">
-                <option value="">2005</option>
-            </select>
-            <select name="Hónap" id="">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
-                <option value="">11</option>
-                <option value="">12</option>
-            </select>
-            <select name="Nap" id="">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
-                <option value="">11</option>
-                <option value="">12</option>
-                <option value="">13</option>
-                <option value="">14</option>
-                <option value="">15</option>
-                <option value="">16</option>
-                <option value="">17</option>
-                <option value="">18</option>
-                <option value="">19</option>
-                <option value="">20</option>
-                <option value="">21</option>
-                <option value="">22</option>
-                <option value="">23</option>
-                <option value="">24</option>
-                <option value="">25</option>
-                <option value="">26</option>
-                <option value="">27</option>
-                <option value="">28</option>
-                <option value="">29</option>
-                <option value="">30</option>
-                <option value="">31</option>
-            </select>
-        </fieldset>
+            <fieldset id="hat">
+                <label for="ev" id="ido">Születési idő</label>
+                <select name="Év" id="ev">
+                    <option value="0">Év</option>
+                    <option value="felnőtt">0-2003</option>
+                    <option value="tini">2004-2010</option>
+                    <option value="gyerek">2010-2021</option>
+                </select>
+                <select name="Hónap" id="honap">
+                    <option value="0">Hónap</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="Nap" id="nap">
+                    <option value="0">Nap</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+            </fieldset>
             <br>
-            <input type="button" value="Mentés">
+            <div id="szulinap">
+                <div id="belsoszulinap">
+                <img src="torta.png">
+                Add meg a születésnapodat és várd a<br> <span id="meglep">meglepetést! </span> 
+            </div>
+        </div>
+            <br>
+            <input id="mentes" type="submit" value="Mentés">
         </form>
     </div>
 </body>

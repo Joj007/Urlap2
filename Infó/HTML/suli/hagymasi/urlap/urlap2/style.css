@@ -1,8 +1,14 @@
-div{
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#alap{
     background-color:rgb(240, 240, 240) ;
     width: 50%;
     height: 500px ;
     color: gray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -10,12 +16,14 @@ input{
     width: 50%;
     float: right;
     height: 0.8cm;
+    font-weight: bolder;
 }
 
 select{
     width: 50%;
     float: right;
-    height: 0.8cm;
+    height: 0.95cm;
+    font-weight: bolder;
 }
 
 
@@ -26,16 +34,6 @@ select{
     margin-top: 0.3cm;
 }
 
-#tele1{
-width: 10%;
-margin-right: 0cm;
-}
-
-#tele2{
-width: 35%;
-margin-left: 0cm;
-}
-
 #radio1{
     float: right;
     height: 0.6cm;
@@ -43,7 +41,12 @@ margin-left: 0cm;
     position: relative;
     right: 7cm;
     top: 0.5cm;
+    color: red;
+    background-color: yellow;
+    border: violet 3px solid;
+    border-radius: 0%;
 }
+
 #radio2{
     float: right;
     height: 0.6cm;
@@ -81,9 +84,172 @@ label{
 
 #neved{
     position: relative;
-    top: 0.35cm;
+    top: 0.5cm;
 }
 
 fieldset{
     border: none;
 }
+
+#ketto{
+    position: relative;
+    top: -1.2cm;
+}
+
+#email{
+    position: relative;
+    top: 0.5cm;
+}
+
+#harom{
+    position: relative;
+    bottom: 2.4cm;
+}
+
+#tele1{
+    width: 10%;
+    margin-right: 0cm;
+    position: relative;
+    left:-8.45cm;
+    padding: 0.2cm;
+    }
+    
+#tele2{
+    width: 40.5%;
+    margin-left: 0cm;
+    position: relative;
+    left: 1.45cm;
+    height: 0.78cm;
+    }
+
+#tel1{
+    position: relative;
+    top: 0.2cm;
+}
+
+#negy{
+    position: relative;
+    top: -2.8cm;
+}
+
+#ot{
+    position: relative;
+    top:-3.8cm;
+}
+
+#nyelv{
+position: relative;
+top: 0.4cm;
+}
+
+#nyelve{
+    position: relative;
+    left: -0.45cm;
+    width: 51.25%;
+}
+
+#hat{
+    position: relative;
+    top: -4cm;
+}
+
+#ev{
+width: 10%;
+position: relative;
+left: -8.4cm;
+}
+
+#honap{
+width:10% ;
+position: relative;
+left: -3.6cm;
+}
+
+#nap{
+width:10% ;
+position: relative;
+left: 1.2cm;
+}
+
+#ido{
+position: relative;
+}
+
+#szulinap{
+    position: relative;
+    left: 9.2cm;
+    top: -4cm;
+    width: 10cm;
+    border-top: dotted gray 1px;
+    border-bottom: dotted gray 1px;
+    padding: 0.2cm 0.2cm 0.2cm 0.2cm;
+}
+
+#belsoszulinap{
+    position: relative;
+    top: -0.45cm;
+}
+
+img{
+    position: relative;
+    top: 0.7cm;
+}
+
+#meglep{
+    position: relative;
+    left: 1.7cm;
+}
+#mentes{
+background-color: #e45d1e;
+width: 2cm;
+color: white;
+position: relative;
+left: -17.5cm;
+top: -4cm;
+border: groove #e45d1e 2px;
+}
+
+#radio1:checked::after
+{
+    width: 0.2cm;
+    height: 0.2cm;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    border: 0.2cm solid #e45d1e;
+    border-radius: 50%;
+}
+
+#radio3:checked::after
+{
+    width: 0.2cm;
+    height: 0.2cm;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    border: 0.2cm solid #e45d1e;
+    border-radius: 50%;
+}
+
+#radio3::after
+{
+    width: 0.2cm;
+    height: 0.2cm;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    border: 0.2cm solid rgb(210, 210, 210);
+    border-radius: 50%;
+}
+
+#radio1::after
+{
+    width: 0.2cm;
+    height: 0.2cm;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    border: 0.2cm solid rgb(210, 210, 210);
+    border-radius: 50%;
+}
+
