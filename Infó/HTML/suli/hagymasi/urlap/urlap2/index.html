@@ -27,22 +27,22 @@
             </fieldset>
             <br>
             <fieldset id="harom">
-                <label for="emailid" id="email">E-mail</label>
-                <input name="email" type="email" class="text" id="emailid">
+                <label for="emailid" id="email">E-mail <span class="csillag">*</span></label>
+                <input required name="email" type="email" class="text" id="emailid">
             </fieldset>
             <br>
             <fieldset id="negy">
-                <label id="tel1" for="tele2">Telefonszám</label>
-                <select name="telefon" id="tele1">
+                <label id="tel1" for="tele2">Telefonszám <span class="csillag">*</span></label>
+                <select required name="telefon" id="tele1">
                     <option value="36" selected>36</option>
                     <option value="50">50</option>
                 </select>
-                <input name="telefonszam" type="number" id="tele2">
+                <input required name="telefonszam" type="number" id="tele2">
             </fieldset>
             <br>
             <fieldset id="ot">
-                <label for="nyelve" id="nyelv">Levelezés <br> alapértelmezett nyelve</label>
-                <select name="nyelv" id="nyelve">
+                <label for="nyelve" id="nyelv">Levelezés <br> alapértelmezett nyelve <span class="csillag">*</span></label>
+                <select required name="nyelv" id="nyelve">
                     <option value="magyar" selected>Magyar</option>
                     <option value="angol">Angol</option>
                 </select>
